@@ -10,9 +10,9 @@ html, body {
   height: 100%;
 }
 
-/*light teal was #DAEDE5, light blue #B6E3E3, lighter blue azure, greenish #A4DBC2*/
+
 body {
-  background: #FFFFFF;
+  background: white;
   font-family: 'Lato', sans-serif;
   -webkit-text-stroke: 0.1px;
 
@@ -25,7 +25,7 @@ body {
 }
 
 button {
-  background-color: #FFB224;
+  background-color: #ef5f32;
   color: white;
   padding: 10px 20px;
   border: none;
@@ -50,17 +50,18 @@ button {
 
 #action-steps h4 { height: 60px;}
 
+/*CHANGE THIS*/
 button:hover {
-  background: #E3A634;
+  background: #1a4153;
 }
 
 
 a {
-  color: #1abc9c;
+  color: #ef5f32;
 
   &:hover {
-    color: #148F77;
-    border-bottom: 1px solid #148F77;
+    color: #1a4153;
+    border-bottom: 1px solid #1a4153;
     text-decoration: none;
   }
 }
@@ -100,7 +101,7 @@ hr {
 
 
 .well{
-  background-color: #EDF5F7;
+  background-color: #b5c8cd;
 }
 
 /* Sticky footer */
@@ -118,8 +119,7 @@ footer,
 
 /* Header */
 .topbar{
-  // the salmon color was D97A55. teal #48BDAD
-  background: #1abc9c;
+  background: #1a4153;
   -webkit-text-stroke: 0px;
 
   @media screen and (max-width: 979px) {
@@ -134,23 +134,31 @@ footer,
     }
   }
 
+  ul{ /*this vertically centers the menu items...*/
+    padding: 15px;
+  }
+  
   .nav > li > a{
     text-shadow: none;
-    color: white;
+    color: #b5c8cd;
     border: none;
 
     @media screen and (max-width: 480px) {
       padding: 0 10px 10px;
     }
+    &:hover{
+    color:white;
+    }
   }
 
   .brand {
     padding: 0;
-    width: 137px;
-    height: 41px;
+    width: 200px;
+    height: 70px;
     margin: 0 20px 0 0;
     text-indent: -999999px;
     background: image-url('logo.png') 0 0 no-repeat;
+    background-position: left center;
     border: none;
   }
 }
@@ -158,7 +166,7 @@ footer,
 /* Content */
 .page-header {
   border: none;
-  color: #166B92;
+  color: #1a4153;
   margin: 20px 0 10px 0;
 }
 

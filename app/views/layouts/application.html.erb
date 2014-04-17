@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Expunge.io</title>
+  <title>Expunge.la</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
   <!--favicon-->
-  <%= favicon_link_tag 'favicon.png' %>
+  <%= favicon_link_tag 'favicon.ico' %>
 
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 
@@ -30,7 +30,7 @@
           <ul class="nav navbar-nav pull-right">
             <li><%= link_to "Home", :action => "index" %></li>
             <li><%= link_to "About", :action => "about" %></li>
-            <li><%= link_to "FAQs", :action => "FAQ" %></li>
+            <li><%= link_to "Glossary", :action => "FAQ" %></li>
             <li><%= link_to "LEGAL AID!", :action => "legalaid" %></li>
           </ul>
         </div>
@@ -51,8 +51,8 @@
       <div class="row" style="font-size: .9em">
         <div class="span10" style="line-height:140%">
           
-          Created by <a href="http://twitter.com/cthydng" target="_blank">Cathy Deng</a> | Code on <a href="https://github.com/cathydeng/expunge.io" target="_blank">GitHub</a><br>
-          Dreamt up by <a href="https://twitter.com/MCJJustice" target="_blank">the Mikva Juvenile Justice Council</a> & Hosted by <a href="http://www.smartchicagocollaborative.org/">Smart Chicago</a>
+          Brought to you by <a href="http://www.laccr.org/" target="_blank">LCCR</a><br>
+          Privacy Policy
         </div>
         <div class="span2">
           <a href="https://twitter.com/intent/tweet?text=If%20you%20have%20a%20juvenile%20record%2C%20you%20may%20be%20able%20to%20expunge%20it.%20Check%20out%20%23expungeio!&tw_p=tweetbutton&url=http%3A%2F%2Fexpunge.io"><%= image_tag "twitter.png" %></a>
