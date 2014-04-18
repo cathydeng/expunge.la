@@ -1,14 +1,9 @@
 <div class="question">
 
-	<h2>Question?</h2>
-	<p>[Note]</p>
+	<h2>Based on your answers, it's unclear if you were arrested as a juvenile or as an adult</h2><br>
+	<p>Only juvenile records are eligible for juvenile expungement - you will need to get your arrest record to know for sure.<br><br>You can still continue through these questions.</p>
 
 
-	<%= link_to('<button id="answer">Yes</button>'.html_safe, disclaimer_path, :method => "get") %>
-	<%= link_to('<button id="answer">No</button>'.html_safe, disclaimer_path, :method => "get") %>
-
-	<br><br>
-	
-	<%= link_to('<button id="answer">Not Sure</button>'.html_safe, notsure_path, :method => "get") %>
+	<%= link_to('<button id="answer">I would like to continue through these questions as if I was arrested as a juvenile</button>'.html_safe, qa_path, :method => "get") %>
 
 </div>

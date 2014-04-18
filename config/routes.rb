@@ -7,6 +7,7 @@ Expungio::Application.routes.draw do
   get '/about', to: 'questions#about'
   get '/legalaid', to: 'questions#legalaid'
   get '/glossary', to: 'questions#glossary'
+  get '/privacypolicy', to: 'questions#privacypolicy'
 
 
   get '/consequences', to: 'questions#consequences'
@@ -40,6 +41,16 @@ Expungio::Application.routes.draw do
 
 #other pages
   get '/notsure', to: 'questions#notsure'
+  get '/notyet1', to: 'questions#notyet1'
+  get '/notyet2', to: 'questions#notyet2'
+  get '/notyet3', to: 'questions#notyet3'
+  get '/notyet4', to: 'questions#notyet4'
+  get '/adultrecord', to: 'questions#adultrecord'
+  get '/eligible1', to: 'questions#eligible1'
+  get '/eligible2', to: 'questions#eligible2'
+  get '/noteligible', to: 'questions#noteligible'
+  get '/opencase1', to: 'questions#opencase1'
+  get '/opencase2', to: 'questions#opencase2'
   
 
   # The priority is based upon order of creation: first created -> highest priority.

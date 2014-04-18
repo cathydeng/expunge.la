@@ -110,6 +110,12 @@ hr {
   border:none;
 }
 
+#side{
+  background-color: #E3F0F8;
+  font-size: .8em;
+}
+
+
 /* Sticky footer */
 .wrapper {
   min-height: 100%;
@@ -178,7 +184,7 @@ footer,
 
 /* Footer */
 footer {
-  border-top: 1px solid #2f756b;
+  border-top: 1px solid #1a4153;
   height: 60px;
 
   @media screen and (max-width: 979px) {

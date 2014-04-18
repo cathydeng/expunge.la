@@ -1,14 +1,9 @@
 <div class="center">
 
-<h2>DISCLAIMER</h2>
-<p>This web app intends to be helpful in clarifying juvenile expungement, but <i><b>does not serve as a substitute for legal aid</b></i>. To ensure that there is no misunderstanding, it's a good idea to speak with a lawyer:
-<ul>
-	<li>if you are uncertain about how to answer any of the following questions</li>
-	<li>after you go through all the questions, to double check your eligibility</li>
-</ul>
-To speak with a lawyer, just click Legal Aid at the top of the page.</p>
+	<div class="page-header">
+  		<h3>DISCLAIMER</h3>
+	</div> 
 
-
-<%= link_to("OK, I understand. Let's get started!", agearrested_path, :method => "get", :class => "btn btn-large")%>
+<%= link_to('<button id="medium-text">OK, I understand</button>'.html_safe, agenow_path, :method => "get") %>
 
 </div>
