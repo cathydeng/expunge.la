@@ -13,7 +13,7 @@ html, body {
 
 body {
   background: white;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   -webkit-text-stroke: 0.1px;
 
   @media screen and (max-width: 480px) {
@@ -76,6 +76,11 @@ a {
   line-height:1.2em;
 }
 
+#answer{
+  font-size:1.4em;
+  line-height:1.2em;
+}
+
 .btn{
   font-size:2.0em;
   line-height:1.2em;
@@ -92,7 +97,7 @@ hr {
 
 /* Layout */
 #content {
-  padding-top: 60px;
+  padding-top: 100px;
 
   @media screen and (max-width: 979px) {
     padding-top: 0;
@@ -102,6 +107,7 @@ hr {
 
 .well{
   background-color: #b5c8cd;
+  border:none;
 }
 
 /* Sticky footer */
