@@ -1,62 +1,46 @@
 Expungio::Application.routes.draw do
   resources :questions
+
   root :to => 'questions#index'
   
 
   get '/about', to: 'questions#about'
-  get '/FAQ', to: 'questions#FAQ'
   get '/legalaid', to: 'questions#legalaid'
+  get '/glossary', to: 'questions#glossary'
 
 
-#this maps urls to static pages
-
-  get '/step2', to: 'questions#step2'
-  get '/step3', to: 'questions#step3'
-  
-
+  get '/consequences', to: 'questions#consequences'
   get '/disclaimer', to: 'questions#disclaimer'
-  get '/notsure', to: 'questions#notsure'
+  get '/paperwork', to: 'questions#paperwork'
 
 
-  get '/q1', to: 'questions#q1'
-  get '/q2', to: 'questions#q2'
-  get '/q3', to: 'questions#q3'
-  get '/q4', to: 'questions#q4'
-  get '/q5', to: 'questions#q5'
-  get '/q6', to: 'questions#q6'
-  get '/q7', to: 'questions#q7'
-  get '/q8', to: 'questions#q8'
-  get '/q9', to: 'questions#q9'
 
+#question pages
+  get '/896', to: 'questions#896'
+  get '/adultorjuv', to: 'questions#adultorjuv'
+  get '/adultorjuv2', to: 'questions#adultorjuv2'
+  get '/agearrested', to: 'questions#agearrested'
+  get '/agenow', to: 'questions#agenow'
+  get '/ct1', to: 'questions#ct1'
+  get '/ct2', to: 'questions#ct2'
+  get '/ct3', to: 'questions#ct3'
+  get '/felony1', to: 'questions#felony1'
+  get '/felony2', to: 'questions#felony2'
+  get '/felony3', to: 'questions#felony3'
+  get '/felony4', to: 'questions#felony4'
+  get '/felony5', to: 'questions#felony5'
+  get '/felony6', to: 'questions#felony6'
+  get '/juvrecord', to: 'questions#juvrecord'
+  get '/misdemeanor1', to: 'questions#misdemeanor1'
+  get '/misdemeanor2', to: 'questions#misdemeanor2'
   get '/qa', to: 'questions#qa'
   get '/qb', to: 'questions#qb'
   get '/qc', to: 'questions#qc'
   get '/qd', to: 'questions#qd'
-  
-  get '/eligible1', to: 'questions#eligible1'
-  get '/eligible2', to: 'questions#eligible2'
-  get '/eligible3', to: 'questions#eligible3'
-  
-  get '/noteligible', to: 'questions#noteligible'
-  
-  get '/notyet1', to: 'questions#notyet1'
-  get '/notyet2', to: 'questions#notyet2'
-  get '/notyet3', to: 'questions#notyet3'
-  get '/notyet4', to: 'questions#notyet4'
-  
-  get '/complicated', to: 'questions#complicated'
 
-  get '/qopen1', to: 'questions#qopen1'
-  get '/qopen2', to: 'questions#qopen2'
-  get '/qopen3', to: 'questions#qopen3'
-  get '/opencase', to: 'questions#opencase'
-
-  get '/agearrested', to: 'questions#agearrested'
-  get '/juvrecord', to: 'questions#juvrecord'
-  get '/yeararrested', to: 'questions#yeararrested'
-  get '/adultorjuv', to: 'questions#adultorjuv'
-  get '/qtrial', to: 'questions#qtrial'
-  get '/adultrecord', to: 'questions#adultrecord'
+#other pages
+  get '/notsure', to: 'questions#notsure'
+  
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
