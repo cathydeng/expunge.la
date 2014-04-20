@@ -9,24 +9,29 @@
 
 	<div class="span3">
 		<div class='well' id="side">
-			<p>There are many reasons why you don't want a juvenile record</p>
-			<%= link_to('<button>Learn More</button>'.html_safe, consequences_path, :method => "get") %>
+			<p>There are many reasons why you don't want a juvenile record<br><br>
+			<a href="/consequences">Learn more ></a>
+			</p>
+
 		</div>
 	</div>
 
 	<div class="span6">
-		<div class='well' id="side">
-			<h4>Answer some questions to find out if you're eligible for juvenile expungement in Louisiana</h4>
+		<center>
+		<div class='well' id='middle'>
+			<p>Answer some questions to find out if you're eligible for juvenile expungement in Louisiana</p><br>
 		
 		<%= link_to('<button id="medium-text">START!</button>'.html_safe, disclaimer_path, :method => "get") %>
 		</div>
+		</center>
 	</div>
 
 	<div class="span3">
 		<div class='well' id='side'>
-			<p>If you know you're eligible, apply for juvenile expungement!</p>
-		
-			<%= link_to('<button>Get Forms</button>'.html_safe, paperwork_path, :method => "get") %>
+			<p>If you know you're eligible, apply for juvenile expungement!<br><br>
+			<a href="/paperwork">Get Forms ></a>
+
+			</p>
 		</div>
 
 	</div>

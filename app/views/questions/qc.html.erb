@@ -1,11 +1,14 @@
 <div class="question">
 
-	<h2>Question?</h2>
-	<p>[Note]</p>
+	<h2>What happened when you went to court?</h2>
 
 
-	<%= link_to('<button id="answer">Yes</button>'.html_safe, disclaimer_path, :method => "get") %>
-	<%= link_to('<button id="answer">No</button>'.html_safe, disclaimer_path, :method => "get") %>
+
+
+	<%= link_to('<button id="answer">The case was dismissed (thrown out)</button>'.html_safe, eligible2_path, :method => "get") %>
+	<%= link_to('<button id="answer">I had a trial and won - the judge found me not guilty!</button>'.html_safe, eligible2_path, :method => "get") %>
+	<a href="/896"><button id="answer">I pled or was found guilty</button></a>
+
 
 	<br><br>
 	

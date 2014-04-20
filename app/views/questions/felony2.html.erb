@@ -1,11 +1,14 @@
 <div class="question">
 
-	<h2>Question?</h2>
-	<p>[Note]</p>
+	<h2>Have you ever been found guilty as an adult of:</h2>
+	<ul>
+		<li>A misdemeanor involving a weapon?</li>
+		<li>A felony?</li>
+	</ul>
 
 
-	<%= link_to('<button id="answer">Yes</button>'.html_safe, disclaimer_path, :method => "get") %>
-	<%= link_to('<button id="answer">No</button>'.html_safe, disclaimer_path, :method => "get") %>
+	<%= link_to('<button id="answer">No, neither</button>'.html_safe, felony3_path, :method => "get") %>
+	<%= link_to('<button id="answer">Yes</button>'.html_safe, noteligible_path, :method => "get") %>
 
 	<br><br>
 	

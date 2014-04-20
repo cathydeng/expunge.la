@@ -13,7 +13,7 @@ html, body {
 
 body {
   background: white;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   -webkit-text-stroke: 0.1px;
 
   @media screen and (max-width: 480px) {
@@ -86,13 +86,25 @@ a {
 }
 
 p {
+
   margin: 0 0 20px 0;
   font-size: 1.2em;
+  line-height: 1.5em;
+  font-family: 'Droid Serif', serif;
 }
 
 hr {
   border-color: #333;
 }
+
+#privacypolicy p {
+  font-size: .8em;
+}
+
+#glossary p {
+  font-size: .9em;
+}
+
 
 /* Layout */
 #content {
@@ -104,9 +116,15 @@ hr {
 }
 
 
-.well{
-  background-color: #b5c8cd;
+.well {
+  background-color: #E3F0F8;
   border:none;
+  font-family: 'Droid Serif', sans-serif;
+}
+
+.well p {
+  font-family: 'Droid Serif', sans-serif;
+  margin: 0 0 0 0;
 }
 
 #side{
@@ -146,7 +164,8 @@ footer,
   }
 
   ul{ /*this vertically centers the menu items...*/
-    padding: 15px;
+    padding: 30px 0px 30px 0px;
+    font-size: 1.3em;
   }
   
   .nav > li > a{
@@ -165,7 +184,7 @@ footer,
   .brand {
     padding: 0;
     width: 200px;
-    height: 70px;
+    height: 100px; /*this is height of header*/
     margin: 0 20px 0 0;
     text-indent: -999999px;
     background: image-url('logo.png') 0 0 no-repeat;
@@ -178,7 +197,7 @@ footer,
 .page-header {
   border: none;
   color: #1a4153;
-  margin: 20px 0 10px 0;
+  margin: 40px 0 10px 0;
 }
 
 /* Footer */
