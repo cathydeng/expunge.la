@@ -8,6 +8,7 @@ Expungio::Application.routes.draw do
   get '/legalaid', to: 'questions#legalaid'
   get '/glossary', to: 'questions#glossary'
   get '/privacypolicy', to: 'questions#privacypolicy'
+  get '/FAQ', to: 'questions#FAQ'
 
 
   get '/consequences', to: 'questions#consequences'
