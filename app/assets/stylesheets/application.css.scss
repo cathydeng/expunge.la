@@ -1,5 +1,4 @@
 /*
- *= require bootstrap_and_overrides
  *= require_tree .
  *= require_self
  */
@@ -224,4 +223,15 @@ footer {
     vertical-align: top;
     &.twitter-share-button { margin-left: 15px; }
   }
+}
+
+
+
+/* Accordion */
+
+.accordion-heading{
+  color: #333;
+  background-color: #E3F0F8;
+  border-color: #ddd;
+  font-size: 1.2em;
 }
